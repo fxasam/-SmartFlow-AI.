@@ -40,9 +40,9 @@ O objetivo do SmartFlow AI e simular uma plataforma de atendimento onde a IA rec
 
 ## Prints do sistema
 
-### Interface do cliente
+### Login do painel administrativo
 
-![Chat do cliente](01.png)
+![Login do painel administrativo](01.png)
 
 ### Painel administrativo
 
