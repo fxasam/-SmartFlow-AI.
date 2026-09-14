@@ -65,4 +65,4 @@ O código-fonte original e as instruções de execução serão adicionados apó
 **Samuel da Silva de Souza**
 Estudante de Análise e Desenvolvimento de Sistemas.
 
-[GitHub](https://github.com/fxasam) · [Projeto DOCIA](https://github.com/fxasam/DOCIA)
+[GitHub](https://github.com/fxasam)
