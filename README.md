@@ -38,6 +38,26 @@ O objetivo do SmartFlow AI e simular uma plataforma de atendimento onde a IA rec
 - JavaScript
 - Pytest
 
+## Prints do sistema
+
+### Interface do cliente
+
+![Chat do cliente](01.png)
+
+### Painel administrativo
+
+![Tela do SmartFlow AI](02.png)
+
+![Dashboard administrativo](03.png)
+
+![Lista de atendimentos](04.png)
+
+![Fila humana](05.png)
+
+![Relatorios](06.png)
+
+![Outra tela do painel](07.png)
+
 ## Estrutura do projeto
 
 ```text
@@ -252,7 +272,6 @@ O projeto ja possui uma versao funcional localmente com:
 - Publicar backend, frontend e banco em ambiente online.
 - Melhorar responsividade das telas.
 - Criar mais testes automaticos para login, pedidos, dashboard e n8n.
-- Adicionar imagens do sistema no README.
 - Documentar o fluxo do n8n com prints ou export do workflow.
 
 ## Autor
