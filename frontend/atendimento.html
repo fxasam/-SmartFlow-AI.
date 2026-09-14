@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Detalhes do Atendimento | SmartFlow AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-layout">
+
+        <aside class="sidebar">
+            <div>
+                <div class="sidebar-brand">
+                    <div class="brand-icon">S</div>
+
+                    <div>
+                        <strong>SmartFlow AI</strong>
+                        <span>Painel de Atendimento</span>
+                    </div>
+                </div>
+
+                <nav class="sidebar-menu">
+                    <a href="dashboard.html" class="menu-item">
+                        Dashboard
+                    </a>
+
+                    <a href="atendimentos.html" class="menu-item active">
+                        Atendimentos
+                    </a>
+
+                    <a href="fila.html" class="menu-item">
+                        Fila Humana
+                    </a>
+
+                    <a href="clientes.html" class="menu-item">
+                        Clientes
+                    </a>
+
+                    <a href="relatorios.html" class="menu-item">
+                        Relatorios
+                    </a>
+                </nav>
+            </div>
+
+            <div class="sidebar-footer">
+                <button id="logout-button" class="logout-button">
+                    Sair
+                </button>
+            </div>
+        </aside>
+
+        <main class="dashboard-main">
+
+            <header class="dashboard-header">
+                <div>
+                    <p class="dashboard-label">
+                        Central de atendimento
+                    </p>
+
+                    <h1>
+                        Detalhes do atendimento
+                    </h1>
+
+                    <p class="dashboard-subtitle">
+                        Visualize as informacoes completas da solicitacao.
+                    </p>
+                </div>
+
+                <div class="user-info">
+                    <div class="user-avatar">
+                        S
+                    </div>
+
+                    <div>
+                        <strong id="usuario-nome">
+                            Usuario
+                        </strong>
+
+                        <span id="usuario-perfil">
+                            Perfil
+                        </span>
+                    </div>
+                </div>
+            </header>
+
+            <section class="dashboard-content">
+
+                <article class="dashboard-panel">
+
+                    <div class="panel-header">
+                        <div>
+                            <h2>Atendimento</h2>
+
+                            <p>
+                                Informacoes e historico da solicitacao.
+                            </p>
+                        </div>
+
+                        <a href="atendimentos.html" class="secondary-button">
+                            Voltar
+                        </a>
+                    </div>
+
+                    <div id="detalhes-atendimento">
+
+                        <div class="empty-state">
+                            <strong>
+                                Carregando atendimento...
+                            </strong>
+
+                            <p>
+                                Buscando os dados da solicitacao.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="atendimento.js"></script>
+</body>
+</html>
